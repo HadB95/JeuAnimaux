@@ -1,0 +1,24 @@
+div{
+	float:left;
+	min-height: 200px;
+	padding: 20px;
+	margin: 10px;
+
+	&:first-of-type{
+		border: 1px solid blue;
+		width: 200px;
+	}
+	&:last-of-type{
+		width: 400px;
+		border: 1px solid red;
+		img{
+			height: 85px;
+			margin: 5px;
+			border: 1px solid grey;
+			cursor: pointer;
+			&:hover{
+				background-color: red;
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+div {
+  float: left;
+  min-height: 200px;
+  padding: 20px;
+  margin: 10px;
+}
+div:first-of-type {
+  border: 1px solid blue;
+  width: 200px;
+}
+div:last-of-type {
+  width: 400px;
+  border: 1px solid red;
+}
+div:last-of-type img {
+  height: 85px;
+  margin: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+div:last-of-type img:hover {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
